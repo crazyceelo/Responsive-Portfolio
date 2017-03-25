@@ -1,0 +1,162 @@
+html, body {
+	background-image: url(images/background.png);
+}
+
+.wrapper {
+}
+
+.content {
+}
+
+.main {
+}
+
+#portfolio-footer {
+}
+
+.common-footer {
+}
+
+footer {
+	border-top: 5px 0px 0px 0px;
+	border-color: #ffffff;
+	width: 100%;
+	font-size: 20px;
+	color: white;
+	background-color: #666666;
+	text-align: center;
+	padding: 40px;
+	float: left;
+}
+
+#header {
+	background-color: #ffffff;
+	border-color: #cccccc;
+	border-bottom:2px solid #bbb;
+	width: 1160px;
+	height: 90px;
+	color: #ffffff;
+	float: left;
+}
+
+h1 {
+	font-family: Georgia;
+	font-size: 50px;
+	background-color: #4aaaa5;
+	width: 275px;
+	padding: 20px;
+	margin-left: 150px;
+	float: left;
+}
+
+#aboutli {
+	margin-left: 200px;
+	border-right:2px solid #bbb
+}
+
+#portfolioli {
+	border-right:2px solid #bbb
+}
+
+li {
+	display: inline;
+	margin-left: 10px;
+
+}
+
+li a {
+	list-style-type: none;
+	text-decoration: none;
+	font-family: arial;
+	display: inline-block;
+	margin-top: 35px;
+	font-size: 20px;
+	color: #777777;
+	margin-right: 10px;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: Georgia;
+	font-size: 30px;
+	border-bottom: 2px solid #bbb;
+	margin-bottom: 10px;
+}
+
+img {
+	float: left;
+	margin-right: 5px;
+}
+
+#main-left {
+	margin-top: 30px;
+	margin-left: 150px;
+	margin-bottom: 280px;
+	float: left;
+	width: 650px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	height: 400px;
+	padding: 20px;
+	font-family: arial;
+	color: #777777;
+}
+
+p {
+	line-height: 130%;
+}
+
+#main-right {
+	float: left;
+	padding: 20px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	margin-top: 30px;
+	margin-left: 10px;
+	width: 270px;
+	height: 130px;
+}
+
+#name-field {
+	width: 100%;
+
+}
+
+#email-field {
+	width: 100%;
+}
+
+#message-field {
+	width: 100%;
+	height: 150px;
+}
+
+#projectlist {
+	margin-left: 50px;
+}
+
+
+h3 {
+	position: absolute;
+	font-family: Georgia;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 20px;
+	width: 210px;
+	margin-top: 125px;
+	text-align: center;
+}
+
+#main-left-portfolio {
+	margin-top: 30px;
+	margin-left: 150px;
+	float: left;
+	width: 650px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	height: 1000px;
+	padding: 20px;
+	font-family: arial;
+	color: #777777;
+	margin-bottom: 180px;
+}
