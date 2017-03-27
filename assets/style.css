@@ -160,3 +160,25 @@ h3 {
 	color: #777777;
 	margin-bottom: 180px;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 300px;) {
+	#main-left {
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+
+	#main {
+		margin-bottom: 0;
+	}
+
+	#main-right {
+		margin-top: 0;
+		margin-left: 0;
+	}
+
+	.wrapper {
+		margin-left: 0;
+	}
+}
