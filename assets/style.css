@@ -181,6 +181,19 @@ h3 {
 	p {
 		width: 200px;
 	}
+
+	#main-left-portfolio {
+		width: 275px;
+		height: 1700px;
+	}
+
+	li {
+		margin-left: 0px;
+	}
+
+	#projectlist {
+		margin-left: 13px;
+	}
 }
 
 @media screen and (max-width: 751px) {
@@ -216,5 +229,9 @@ h3 {
 
 	footer {
 		text-align: left;
+	}
+
+	#main-left-portfolio {
+		margin-left: 5px;
 	}
 }
