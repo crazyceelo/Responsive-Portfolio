@@ -2,18 +2,6 @@ html, body {
 	background-image: url(images/background.png);
 }
 
-.wrapper {
-}
-
-.content {
-}
-
-.main {
-}
-
-#portfolio-footer {
-}
-
 .common-footer {
 }
 
@@ -163,22 +151,70 @@ h3 {
 
 /* Media Queries */
 
-@media screen and (max-width: 300px;) {
-	#main-left {
-		margin-left: 0;
-		margin-bottom: 0;
+@media screen and (max-width: 1160px) {
+	#main-right {
+		margin-top: 0;
+		margin-left: 150px;
+		margin-bottom: 20px;
 	}
 
-	#main {
-		margin-bottom: 0;
+	#main-left {
+		margin-bottom: 20px;
+	}
+
+	#main-left-portfolio {
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 930px) {
+	#aboutli {
+		margin-left: 20px;
+	}
+}
+
+@media screen and (max-width: 860px) {
+	#main-left {
+		width: 275px;
+	}
+
+	p {
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 751px) {
+	#header {
+		height: 190px;
+	}
+
+	h1 {
+		float: none;
+	}
+
+	#aboutli {
+		margin-left: 150px;
+	}
+}
+
+@media screen and (max-width: 490px) {
+	h1 {
+		margin-left: 5px;
+	}
+
+	#aboutli {
+		margin-left: 5px;
+	}
+
+	#main-left {
+		margin-left: 5px;
 	}
 
 	#main-right {
-		margin-top: 0;
-		margin-left: 0;
+		margin-left: 5px;
 	}
 
-	.wrapper {
-		margin-left: 0;
+	footer {
+		text-align: left;
 	}
 }
