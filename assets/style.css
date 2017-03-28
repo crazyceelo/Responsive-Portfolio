@@ -183,12 +183,14 @@ h3 {
 
 @media screen and (max-width: 768px) {
 	#aboutli {
-		margin-left: 20px;
+		margin-left: 180px;
 	}
 
 	#main-left {
-		width: 500px;
+		width: 680px;
 		margin-bottom: 10px;
+		height: 350px;
+		margin-left: 20px;
 	}
 
 	p {
@@ -196,12 +198,22 @@ h3 {
 	}
 
 	#main-left-portfolio {
-		width: 275px;
-		height: 1700px;
+		width: 680px;
+		height: 1400px;
+		margin-left: 20px;
 	}
 
 	li {
 		margin-left: 0px;
+	}
+
+	#projectlist li a img {
+		height: 300px;
+		width: 300px;
+	}
+
+	#projectlist li a {
+		margin-left: 20px;
 	}
 
 	#projectlist {
@@ -210,19 +222,43 @@ h3 {
 
 	#main-right {
 		margin-left: 150px;
-		width: 500px;
+		width: 680px;
 		margin-bottom: 30px;
+		margin-left: 20px;
+	}
+
+	#profile-pic {
+		width: 220px;
+		height: 150px;
+	}
+
+	#message-field {
+		height: 100px;
+	}
+
+	h1 {
+		margin-left: 20px;
+	}
+
+	h3 {
+		margin-top: 225px;
+		width: 260px;
+
 	}
 }
 
 
 @media screen and (max-width: 640px) {
 	#header {
-	height: 190px;
+		position: static;
+		height: 190px;
 	}
 
 	h1 {
 		float: none;
+		width: 640px;
+		margin-left: 0px;
+		text-align: center;
 	}
 
 	#aboutli {
@@ -233,28 +269,64 @@ h3 {
 		width: 500px;
 		height: 400px;
 	}
-	h1 {
-		margin-left: 160px;
-	}
 
 	#aboutli {
-		margin-left: 200px;
+		margin-left: 10px;
 	}
 
 	#main-left {
-		margin-left: 40px;
+		margin-left: 20px;
 		height: 700px;
+		width: 545px;
 	}
 
 	#main-right {
-		margin-left: 40px;
+		margin-left: 20px;
+		width: 545px;
 	}
 
 	footer {
-		text-align: left;
+		text-align: center;
 	}
 
 	#main-left-portfolio {
 		margin-left: 40px;
+	}
+
+	.header-list-box {
+	}
+
+	li a {
+		margin-left: 70px;
+		margin-right: 70px;
+	}
+
+	#connect-list li a {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	#message-field {
+		height: 440px;
+	}
+
+	#main-left-portfolio {
+		width: 545px;
+		margin-left: 20px;
+		height: 3150px;
+	}
+
+	#projectlist {
+		margin-left: 0px;
+	}
+
+	#projectlist li a img {
+		height: 400px;
+		width: 500px;
+	}
+
+	h3 {
+		margin-top: 320px;
+		width: 460px;
 	}
 }
