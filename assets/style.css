@@ -151,35 +151,48 @@ h3 {
 
 /* Media Queries */
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 980px) {
+	#profile-pic {
+		width: 450px;
+		height: 300px;
+	}
+
 	#main-right {
-		margin-top: 0;
-		margin-left: 150px;
-		margin-bottom: 20px;
 	}
 
 	#main-left {
-		margin-bottom: 20px;
+		margin-bottom: 50px;
+		width: 450px;
+		height: 600px;
 	}
 
 	#main-left-portfolio {
+		width: 275px;
+		height: 1700px;
 		margin-bottom: 30px;
+	}
+
+	#message-field {
+		height: 350px;
+	}
+
+	#projectlist {
+		margin-left: 5px;
 	}
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 768px) {
 	#aboutli {
 		margin-left: 20px;
 	}
-}
 
-@media screen and (max-width: 860px) {
 	#main-left {
-		width: 275px;
+		width: 500px;
+		margin-bottom: 10px;
 	}
 
 	p {
-		width: 200px;
+		width: 490px;
 	}
 
 	#main-left-portfolio {
@@ -192,13 +205,20 @@ h3 {
 	}
 
 	#projectlist {
-		margin-left: 13px;
+		margin-left: 0px;
+	}
+
+	#main-right {
+		margin-left: 150px;
+		width: 500px;
+		margin-bottom: 30px;
 	}
 }
 
-@media screen and (max-width: 751px) {
+
+@media screen and (max-width: 640px) {
 	#header {
-		height: 190px;
+	height: 190px;
 	}
 
 	h1 {
@@ -208,23 +228,26 @@ h3 {
 	#aboutli {
 		margin-left: 150px;
 	}
-}
 
-@media screen and (max-width: 490px) {
+	#profile-pic {
+		width: 500px;
+		height: 400px;
+	}
 	h1 {
-		margin-left: 5px;
+		margin-left: 160px;
 	}
 
 	#aboutli {
-		margin-left: 5px;
+		margin-left: 200px;
 	}
 
 	#main-left {
-		margin-left: 5px;
+		margin-left: 40px;
+		height: 700px;
 	}
 
 	#main-right {
-		margin-left: 5px;
+		margin-left: 40px;
 	}
 
 	footer {
@@ -232,6 +255,6 @@ h3 {
 	}
 
 	#main-left-portfolio {
-		margin-left: 5px;
+		margin-left: 40px;
 	}
 }
